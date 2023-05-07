@@ -1,0 +1,41 @@
+1. Задачи нам ставит руководитель (тимлид, знакомые, бизнес-аналитик)
+
+2. Цель/Задача - реализовать конкурента olx.
+
+3. Функционал
+3.1 Конкуренты
+3.2 Спросить у нейросети (https://chat.openai.com/)
+3.3 Читать книги и смотреть видео/статьи
+
+4. Выбранный функционал
+4.1 Просмотр объявлений
+4.2 Фильтрация
+4.3 Поиск
+4.4 Добавление объявлений
+
+5. Выбор технологий
+5.1 Python/Django
+
+6. Начало разработки
+6.1 Создать новый репозиторий (
+https://github.com/
+https://git-scm.com/
+https://desktop.github.com/
+https://www.python.org/
+https://www.jetbrains.com/pycharm/download/#section=windows
+6.2 Создать виртуальное окружение
+cmd
+python -m venv env
+call env/scripts/activate
+pip install django
+pip freeze > requirements.txt
+django-admin startproject django_settings .
+django-admin startapp django_app
+python manage.py runserver 0.0.0.0:8000
+!# chrome http://127.0.0.1:8000/
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+
+https://getbootstrap.com/docs/5.0/examples/
